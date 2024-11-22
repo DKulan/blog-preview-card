@@ -8,6 +8,7 @@ h1:hover {
   box-shadow: 8px 8px 0 0 black;
   border-radius: 20px;
   max-width: calc(384rem / 16);
+  border: 1px solid black;
 
   display: flex;
   flex-direction: column;
