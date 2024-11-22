@@ -1,0 +1,44 @@
+h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.card {
+  background-color: var(--white);
+  box-shadow: 8px 8px 0 0 black;
+  border-radius: 20px;
+  max-width: calc(384rem / 16);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+  padding: var(--spacing-300);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-150);
+}
+
+.article-image {
+  border-radius: 10px;
+}
+
+.label {
+  background-color: var(--yellow);
+  border-radius: 4px;
+  max-width: fit-content;
+  padding: var(--spacing-50) var(--spacing-150);
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-150);
+}
+
+.avatar-image {
+  height: 32px;
+  width: 32px;
+}
